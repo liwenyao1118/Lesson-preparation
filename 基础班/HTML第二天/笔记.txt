@@ -1,0 +1,38 @@
+回顾：
+	概念
+		网页
+		浏览器、浏览器内核
+		Web标准
+	HTML标签
+		标签规范和关系
+		html的骨架--->文档声明--->lang属性
+		h1~h6标题标签
+		p、br
+		文本格式化：<strong>、<em>、<ins>、<del>
+		div、span
+		图像标签img src alt  tile  是一个单标签
+		路径  
+			相对路径： ../   ./   /
+			绝对路径： C：/image/...
+		超链接：a 锚点定位
+		注释:<!-- 注释的内容 -->  ctrl+/
+		特殊字符: &nbsp; &lt; &gt;
+		
+		
+HTML第二天:
+	表格标签（展示数据）
+		table标签
+			属性：
+				align对齐方式= center、left、right
+				border边框:=数值
+				cellpadding= 数值
+				cellspacing=数值
+		tr标签
+		td单元格标签
+	小说排行案例
+	列表标签
+		无序列表
+		有序列表
+		自定义列表
+	表单标签
+	综合案例
