@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1.合并单元格的方式：
+        合并行：rowspan
+        合并列：colspan 
+    2.确定目标单元格：先行后列的顺序读取，先碰到谁就确定谁
+    3.合并单元格的步骤：
+        先确定是跨行还是跨列---》找到目标单元格写上对应的属性---》删掉多余的单元格 -->
+        <table border="1" cellspacing="0">
+            <tr>
+                <td>内容填充</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td>内容填充</td>
+                <td>内容填充</td>
+                <td>内容填充</td>
+            </tr>
+            <tr>
+                <td rowspan="2"></td>
+                <td>内容填充</td>
+                <td>内容填充</td>
+            </tr>
+            <tr>
+                <td>内容填充</td>
+                <td>内容填充</td>
+            </tr>
+        </table>
+</body>
+</html>
